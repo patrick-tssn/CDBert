@@ -8,6 +8,18 @@ This is the official implementation of the paper "Shuo Wen Jie Zi: Rethinking Di
 pip install -r requirements.txt
 ```
 
+## Synthetic Chinese Character Data
+This dataset can also be used for OCR
+
+## PolyMRC
+A new machine reading comprehension task focusing on polysemy understanding
+
+```
+{"options": ["本着道义", "情义；恩情", "公正、合宜的道德、行为或道理", "坚持正义"], "sentence": ["汝之义绝高氏而归也，堂上阿奶仗汝扶持。"], "word": "义", "label": 0}
+
+```
+
+
 ## Data Preparation
 
 - Download [Chinese Dictionary](https://github.com/mapull/chinese-dictionary)
