@@ -1,6 +1,6 @@
 # CDBert
 
-This is the official implementation of "CDBert".
+This is the official implementation of the paper "Shuo Wen Jie Zi: Rethinking Dictionaries and Glyphs for Chinese Language Pre-training".
 
 ## Installation
 
@@ -201,3 +201,4 @@ python dict_key.py \
         --choices 4 \
         --glyph radical \
 ```
+## Citation
