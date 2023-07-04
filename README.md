@@ -18,6 +18,7 @@ A new machine reading comprehension task focusing on polysemy understanding
 {"options": ["本着道义", "情义；恩情", "公正、合宜的道德、行为或道理", "坚持正义"], "sentence": ["汝之义绝高氏而归也，堂上阿奶仗汝扶持。"], "word": "义", "label": 0}
 
 ```
+Download the dataset from [huggingface dataset](https://huggingface.co/datasets/tssn/PolyMRC)
 
 
 ## Data Preparation
@@ -214,3 +215,13 @@ python dict_key.py \
         --glyph radical \
 ```
 ## Citation
+```
+@misc{wang2023shuo,
+      title={Shuo Wen Jie Zi: Rethinking Dictionaries and Glyphs for Chinese Language Pre-training}, 
+      author={Yuxuan Wang and Jianghui Wang and Dongyan Zhao and Zilong Zheng},
+      year={2023},
+      eprint={2305.18760},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
