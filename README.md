@@ -216,12 +216,20 @@ python dict_key.py \
 ```
 ## Citation
 ```
-@misc{wang2023shuo,
-      title={Shuo Wen Jie Zi: Rethinking Dictionaries and Glyphs for Chinese Language Pre-training}, 
-      author={Yuxuan Wang and Jianghui Wang and Dongyan Zhao and Zilong Zheng},
-      year={2023},
-      eprint={2305.18760},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{wang-etal-2023-rethinking,
+    title = "Rethinking Dictionaries and Glyphs for {C}hinese Language Pre-training",
+    author = "Wang, Yuxuan  and
+      Wang, Jack  and
+      Zhao, Dongyan  and
+      Zheng, Zilong",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-acl.70",
+    pages = "1089--1101",
+    abstract = "We introduce CDBert, a new learning paradigm that enhances the semantics understanding ability of the Chinese PLMs with dictionary knowledge and structure of Chinese characters. We name the two core modules of CDBert as Shuowen and Jiezi, where Shuowen refers to the process of retrieving the most appropriate meaning from Chinese dictionaries and Jiezi refers to the process of enhancing characters{'} glyph representations with structure understanding. To facilitate dictionary understanding, we propose three pre-training tasks, i.e.„ Masked Entry Modeling, Contrastive Learning for Synonym and Antonym, and Example Learning. We evaluate our method on both modern Chinese understanding benchmark CLUE and ancient Chinese benchmark CCLUE. Moreover, we propose a new polysemy discrimination task PolyMRC based on the collected dictionary of ancient Chinese. Our paradigm demonstrates consistent improvements on previous Chinese PLMs across all tasks. Moreover, our approach yields significant boosting on few-shot setting of ancient Chinese understanding.",
 }
+
 ```
